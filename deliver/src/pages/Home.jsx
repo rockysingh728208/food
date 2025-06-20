@@ -8,6 +8,7 @@ import { RxCross2 } from "react-icons/rx";
 import Card2 from '../components/Card2';
 import { useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
+import UserPayment from '../components/UserPayment'; // ✅ QR Code component
 
 const Home = () => {
   const { cate, setCate, input, showCart, setShowCart } = useContext(dataContext);
@@ -115,11 +116,17 @@ const Home = () => {
                 <span className="text-green-600">₹{total}/-</span>
               </div>
 
-              <button className="w-[80%] bg-blue-500 hover:bg-blue-400 transition-all duration-200 text-white py-2 rounded-md" onClick={()=>{
-                toast.success("Placed Order")
-              }}>
+              <button
+                className="w-[80%] bg-blue-500 hover:bg-blue-400 transition-all duration-200 text-white py-2 rounded-md"
+                onClick={() => {
+                  toast.success("Order Placed! Please complete the payment.");
+                }}
+              >
                 Place Order
               </button>
+
+              {/* QR Code + UPI Payment */}
+              <UserPayment total={total} />
             </div>
           </>
         ) : (

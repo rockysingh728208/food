@@ -14,44 +14,44 @@
  const food_items=[
     {
 "id":1,"food_name":"Pancake","food_category":"Breakfast","food_type"
-:"veg","food_quantity":1,"food_image":image1,"price":499
+:"veg","food_quantity":1,"food_image":image1,"price":10
  },
   
     {
 "id":2,"food_name":"Chicken Soup","food_category":"Soups","food_type"
-:" Non-Veg","food_quantity":1,"food_image":image2,"price":499
+:" Non-Veg","food_quantity":1,"food_image":image2,"price":60
  },
     {
 "id":3,"food_name":"Minestrone Soup","food_category":"Soups","food_type"
-:"veg","food_quantity":1,"food_image":image3,"price":499
+:"veg","food_quantity":1,"food_image":image3,"price":60
  },
     {
 "id":4,"food_name":"Pasta","food_category":"Pasta","food_type"
-:"veg","food_quantity":1,"food_image":image4,"price":499
+:"veg","food_quantity":1,"food_image":image4,"price":50
  },
     {
 "id":5,"food_name":"Chicken Pasta","food_category":"Pasta","food_type"
-:"Non-Veg","food_quantity":1,"food_image":image5,"price":499
+:"Non-Veg","food_quantity":1,"food_image":image5,"price":69
  },
     {
 "id":6,"food_name":"Paneer Butter Masala","food_category":"Main-Course","food_type"
-:"veg","food_quantity":1,"food_image":image6,"price":499
+:"veg","food_quantity":1,"food_image":image6,"price":49
  },
     {
 "id":7,"food_name":"Chicken Biryani","food_category":"Main-Course","food_type"
-:"Non-veg","food_quantity":1,"food_image":image7,"price":499
+:"Non-veg","food_quantity":1,"food_image":image7,"price":49
  },
     {
 "id":8,"food_name":"Margherita Pizza","food_category":"Pizza","food_type"
-:"veg","food_quantity":1,"food_image":image8,"price":499
+:"veg","food_quantity":1,"food_image":image8,"price":89
  },
     {
 "id":9,"food_name":"Chicken Burger","food_category":"Burger","food_type"
-:"Non-Veg","food_quantity":1,"food_image":image9,"price":499
+:"Non-Veg","food_quantity":1,"food_image":image9,"price":79
  },
     {
 "id":10,"food_name":"Veggie-Burger","food_category":"Burger","food_type"
-:"veg","food_quantity":1,"food_image":image10,"price":499
+:"veg","food_quantity":1,"food_image":image10,"price":39
  },
     
  
